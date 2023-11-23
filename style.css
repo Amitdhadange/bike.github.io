@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-image:linear-gradient(to right , rgb(24, 24, 24), rgb(80, 80, 80));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vmax;
+}
+.nav>h2{
+    color: whitesmoke;
+}
+.nav>ul>li:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+.logo{
+    width: 8vw;
+    height: 10vh;
+    background-image: url(https://png.pngtree.com/png-clipart/20220922/original/pngtree-abstract-mr-letter-logo-vector-png-image_8627389.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* mix-blend-mode: multiply; */
+    border-radius: 50%;
+}
+.nav>ul{
+    display: flex;
+    gap: 2vmax;
+    font-size: 1.2vmax;
+    list-style: none;
+}
+.nav>ul{
+    color: whitesmoke;
+}
+.mid{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient( rgb(24, 24, 24), rgb(80, 80, 80));
+}
+.img{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://i.ebayimg.com/images/g/gIsAAOSwrHFhdKOu/s-l1600.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    mix-blend-mode: color-dodge;
+}
+.img>h1{
+    /* color: antiquewhite; */
+    font-size: 12vmax;
+    padding: 2vmax 22vmax;
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient(#ffffff, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+}
+.mid2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    background-image:linear-gradient( #4c4c4c, #424242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+}
+.left>h1{
+    font-size: 5vmax;
+    background: -webkit-linear-gradient(#ffffff, #756c6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2vmax;
+}
+.left>button{
+    background-color: white;
+    color: #000000;
+    padding: 1vmax 3vmax;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+.left>button:hover{
+    background-color: #454545;
+    border: 2px solid black;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    background-color: #424242;
+}
+.right>video{
+    mix-blend-mode: difference;  
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: #424242;
+}
+.nav1{
+    width: 100%;
+    height: 10vh;
+    /* background-color: #905050; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav1>h1{
+    color: rgb(206, 205, 205);
+    padding-top:10vh;
+}
+.shop{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15vh;
+}
+
+.box1{
+    width: 20vw;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    overflow: hidden;
+
+}
+.pic1{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 1vmax;
+    background-image: url(https://royalenfield.com.au/wp-content/uploads/2021/02/SEAT-LOW-RIDE-BROWN.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 1s ease all;
+}
+.pic1:hover{
+    cursor: pointer;
+    transform:scale(1.4);
+}
+.box1>h2{
+    color: #424242;
+}
+.box2{
+    width: 20vw;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    overflow: hidden;
+}
+.pic2{
+    width: 100%;
+    height: 50vh;
+    /* background-color: rgb(145, 145, 146); */
+    margin-bottom: 1vmax;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2022/6/YM/GX/ZX/11747364/royal-enfield-silencer-500x500.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 1s ease all;
+}
+.pic2:hover{
+    cursor: pointer;
+    transform:scale(1.4);
+}
+.box2>h2{
+    color: #424242;
+}
+.box3{
+    width: 20vw;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    overflow: hidden;
+
+}
+.pic3{
+    width: 100%;
+    height: 50vh;
+    /* background-color: blue; */
+    margin-bottom: 1vmax;
+    background-image: url(https://i0.wp.com/rideindiaride.in/wp-content/uploads/2022/01/m7.png?fit=1280%2C1500&ssl=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* mix-blend-mode: multiply; */
+    transition: 1s ease all;
+
+}
+.pic3:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+}
+.box3>h2{
+    color: #424242;
+}
+.box4{
+    width: 20vw;
+    height: 60vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px 2px 79px 1px rgba(255,255,255,0.75);
+    overflow: hidden;
+
+}
+.pic4{
+    width: 100%;
+    height: 50vh;
+    /* background-color: blue; */
+    margin-bottom: 1vmax;
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/accessories/product-images/1990454/Offbike/1990454-1280x1000.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* mix-blend-mode: multiply; */
+    transition: 1s ease all;
+
+}
+.pic4:hover{
+    cursor: auto;
+    transform:scale(1.4);
+    /* mix-blend-mode: color-dodge; */
+}
+.box4>h2{
+    color: #424242;
+}
+.page4{
+    width: 100%;
+    height: 25vh;
+    background-color: #424242;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.page4>ul{
+    display: flex;
+    gap: 10vmax;
+    list-style: none;
+    font-size: 1.5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(195, 195, 195);
+}
+.page4>ul>li:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.so{
+    width: 100%;
+    height: 15vh;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.so>h3{
+    color: rgb(195, 195, 195);
+
+
+}
+.so>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    font-size: 2.5vw;
+    list-style: none;
+    color: rgb(195, 195, 195);
+    padding-top: 2vh;
+}
+.so>ul>li:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color: whitesmoke;
+}
